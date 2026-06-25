@@ -16,7 +16,7 @@ export default function Brand() {
     <section  className='portfolio-section'>
       <div className='section-info'>
         <p>
-          Founder of Charms Dancewear, custom classwear and performance costumes for dance companies, studios, and competitions nationwide. What started in 2012 as making my own leotards at San Diego Ballet grew into a full costume design business through trial and error, iteration, and a lot of seam ripping. I design, create patterns, grade sizes, sew, and ship every piece myself. Running every aspect solo taught me that what I love most isn't just the finished product, it's the problem-solving and process behind it.
+          What started in 2012 as making my own leotards for class at San Diego Ballet, grew into a full costume design business. Through trial and error, iteration, and a lot of seam ripping, I design, create patterns, grade sizes, sew, and ship every piece myself. Running every aspect solo taught me that what I love most isn't just the finished product, it's the problem-solving and process behind it.
         </p>
         <a 
           href="https://etsy.com/shop/charmsdancewear"           
@@ -28,7 +28,7 @@ export default function Brand() {
       </div>
 
       <div className='section-statement'>
-        <p >Charms Dancewear <br/>
+        <p >Founder of Charms Dancewear <br/>
           <span>Custom hand crafted dancewear</span>
         </p>
         <img src={sew} alt='sewing machine'/>

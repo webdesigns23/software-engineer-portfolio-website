@@ -8,7 +8,7 @@ export default function Contact() {
     <>
     <div id='contact' className="section-divider">
       <span className='marker'><Astroid size={16}/></span>
-      <span className='num'>04</span>
+      <span className='num'>05</span>
       <div className='line-divider'></div>
       <span className='section-label'>Contact</span>
     </div>

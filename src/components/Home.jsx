@@ -1,5 +1,5 @@
 import React from 'react'
-import headshot from "../assets/images/portfolio2.png"
+import headshot from "../assets/images/2.png"
 import "../styles/Home.css"
 
 

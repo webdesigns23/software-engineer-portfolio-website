@@ -3,6 +3,7 @@
   align-items: center;
   padding: 28px 50px;
   gap: 12px;
+  scroll-margin-top: 50px;
 }
 
 .section-divider .marker { 
@@ -98,15 +99,39 @@
   font-size: .65rem;
 }
 
-/* ------------ development section ----------- */
+/* ------------ Brand section ----------- */
 .section-divider.cream, .portfolio-section.cream, .section-statement.cream {
   background: var(--cream-warm);
   color: var(--slate);
 }
 
-
 /* ------------ development section ----------- */
 .section-divider.slate, .portfolio-section.slate, .section-statement.slate {
   background: var(--slate);
   color: var(--cream-warm);
+}
+
+.skill-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+  gap: 12px;
+}
+
+.skill-pill {
+  font-size: .85rem;
+  color: var(--gold-light);
+  padding: 5px 20px;
+  border-radius: 3px;
+  border: 3px double var(--slate-muted);
+  width: fit-content;
+}
+
+.skill-pill.muted {
+  color: var(--gold);
+  border: 2px solid var(--muted);
 }
