@@ -7,7 +7,7 @@ export const featured = {
 	id: 1,
 	name: 'Stitch Flow',
 	src: stitch,
-	description: "A full-stack sewing project management web application. Features kanban-style project boards, a pattern library, Cloudinary image uploads, and deadline tracking. Sewing rarely goes in a straight line, you start something, set it down, pick it back up weeks later. As a sewist and small business owner, I built Stitch Flow to solve a real problem in my own workflow. It's a full-stack project management app built for the way casual sewists actually work, with kanban-style boards, a pattern library, Cloudinary image uploads, and deadline tracking to help you keep track of multiple projects at your own pace without ever losing where you left off.",
+	description: "A full-stack sewing project management web application designed to help makers organize projects from start to finish. It features Kanban-style project boards, a searchable pattern library, Cloudinary image uploads, and deadline tracking.  Inspired by my own experiences as a sewist and Etsy shop owner, I created Stitch Flow because sewing projects rarely follow a linear timeline, they are often started, set aside, and revisited weeks or even months later. This app provides a centralized workspace where users can manage multiple projects, organize reference materials, and track each project's progress at their own pace.",
 	tech: ['React', 'Vite', 'Python', 'Flask', 'PostgreSQL','JWT', 'Cloudinary', 'Neon', 'Recharts'],
 	live: 'https://stitch-flow-fullstack-app.vercel.app/',
 	github: 'https://github.com/webdesigns23/stitch-flow-fullstack-app',

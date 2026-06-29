@@ -7,10 +7,10 @@ import '../styles/Projects.css'
 function FeaturedCard({project}) {
 	return (
 		<div className='featured-card'>
-			<div>
-				<img src={project.src} alt={project.name}/>
+			<div className='image-container'>
+				<img src={project.src} alt={project.name}  className='featured-card-img'/>
 			</div>
-			<div>
+			<div className='featured-card-info'>
 				<h2>
 					<Astroid/>
 					{" "} Featured
@@ -22,8 +22,10 @@ function FeaturedCard({project}) {
 							<li key={t}>{t}</li>
 					))}
 				</ul>
-				<a className='feat-section-link' href={project.live} target='_blank'>Live <ArrowUpRight/></a>
-				<a className='feat-section-link' href={project.github} target='_blank'>Github <ArrowUpRight/></a>
+				<section className='link-section'>
+					<a className='feat-link' href={project.live} target='_blank'>Live <ArrowUpRight/></a>
+					<a className='feat-link' href={project.github} target='_blank'>Github <ArrowUpRight/></a>
+				</section>
 			</div>
 		</div>
 	)
@@ -43,7 +45,9 @@ function ProjectCard({project}) {
 					<li key={t}>{t}</li>
 				))}
 			</ul>
-			<a className='section-link' href={project.github} target='_blank'>Github <ArrowUpRight/></a>
+			<section className='link-section'>
+				<a className='proj-link' href={project.github} target='_blank'>Github <ArrowUpRight/></a>
+			</section>
 		</div>
 	)
 }

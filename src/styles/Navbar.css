@@ -10,7 +10,7 @@
   background: var(--slate);
 }
 
-.nav-contact {
+.nav {
   font-family: sans-serif;
   font-size: 12px;
   letter-spacing: .1em;
@@ -19,7 +19,7 @@
   text-decoration: none;
 }
 
-.nav-contact:hover { 
+.nav:hover { 
   color: var(--gold-light); 
 }
 

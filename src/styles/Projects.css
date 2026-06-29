@@ -14,19 +14,19 @@
   box-shadow: 0px 4px 10px rgba(211, 209, 205, 0.5) ;
 }
 
-.featured-card > div:first-child {
+.image-container {
   border-right: 3px solid var(--gold);
   overflow: hidden;
 }
 
-.featured-card > div:first-child img {
+.featured-card-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
 
-.featured-card > div:last-child {
+.featured-card-info {
   padding: 1.75rem 2rem;
   display: flex;
   flex-direction: column;
@@ -47,18 +47,17 @@
 }
 
 .featured-card h3 {
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 400;
   color: var(--cream-warm);
   margin: 0;
 }
 
 .featured-card p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--slate-muted);
   line-height: 1.7;
   margin: 0;
-  flex: 1;
 }
 
 .featured-card ul {
@@ -71,7 +70,7 @@
 }
 
 .featured-card ul li {
-  font-size: 14px;
+  font-size: 16px;
   font-family: monospace;
   color: var(--gold-light);
   border: 1px solid rgba(201, 168, 76, 0.4);
@@ -80,8 +79,15 @@
   border-radius: 3px;
 }
 
-.feat-section-link {
-  display: inline-flex;
+.link-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.feat-link, .proj-link {
+  display: flex;
   align-items: center;
   gap: 4px;
   font-size: 16px;
@@ -89,10 +95,9 @@
   text-transform: uppercase;
   text-decoration: none;
   color: var(--gold-light);
-  margin-right: 1.25rem;
 }
 
-.feat-section-link:hover { color: var(--cream-warm); }
+.feat-link:hover, .proj-link:hover { color: var(--cream-warm); }
 
 /* ------------------ Project Cards ---------------------- */
 .projects-container {
@@ -100,7 +105,7 @@
   padding: 0 3rem 3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
+  gap: 2.5rem;
 }
 
 .project-card {
@@ -114,8 +119,8 @@
 }
 
 .proj-card-img {
-  width: 320px;
-  height: 320px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   object-position: center top;
   display: block;
@@ -158,18 +163,7 @@
   border-radius: 3px;
 }
 
-.project-card .section-link {
-  display: inline-flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  gap: 4px;
-  font-size: 11px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: rgba(201, 168, 76, 0.6);
-  padding: 0 1.25rem;
+.proj-link {
+  font-size: 12px;
   margin: 15px;
 }
-
-.section-link:hover { color: var(--gold-light); }
