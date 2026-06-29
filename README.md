@@ -2,7 +2,7 @@
 
 Personal portfolio website for Sharmaine Perea, a software engineer with a background in professional ballet and small business ownership.
 
-**Live site:** [Sharmaine Perea] (https://software-engineer-portfolio-website.vercel.app/)
+**Live site:** [Sharmaine Perea] (https://sharmaine-perea.vercel.app/)
 
 ---
 
