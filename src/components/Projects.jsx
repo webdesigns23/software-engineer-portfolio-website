@@ -23,8 +23,16 @@ function FeaturedCard({project}) {
 					))}
 				</ul>
 				<section className='link-section'>
-					<a className='feat-link' href={project.live} target='_blank'>Live <ArrowUpRight/></a>
-					<a className='feat-link' href={project.github} target='_blank'>Github <ArrowUpRight/></a>
+					<a className='feat-link' 
+						href={project.live} 
+						target='_blank'>
+							Live <ArrowUpRight/>
+					</a>
+					<a className='feat-link' 
+						href={project.github} 
+						target='_blank'>
+							Github <ArrowUpRight/>
+					</a>
 				</section>
 			</div>
 		</div>
@@ -45,8 +53,19 @@ function ProjectCard({project}) {
 					<li key={t}>{t}</li>
 				))}
 			</ul>
-			<section className='link-section'>
-				<a className='proj-link' href={project.github} target='_blank'>Github <ArrowUpRight/></a>
+			<section className='link-section margin'>
+				{project.demo != '' &&
+				<a className='proj-link'
+					href={project.demo}
+					target='_blank'>
+						Demo <ArrowUpRight/>
+				</a>
+				}
+				<a className='proj-link' 
+					href={project.github} 
+					target='_blank'>
+						Github <ArrowUpRight/>
+				</a>
 			</section>
 		</div>
 	)
